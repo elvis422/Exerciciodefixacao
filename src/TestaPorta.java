@@ -5,19 +5,19 @@ public class TestaPorta {
     {
         Porta p1 = new Porta();
         
-        p1.cor = " Preto ";
-        p1.dimensaoX = 2;
-        p1.dimensaoY = 3;
-        p1.dimensaoZ = 4;
+        p1.setCor(" Preto ");
+        p1.setDimensaox(2);
+        p1.setDimensaoy(3);
+        p1.setDimensaoz(4);
         
-        p1.pinta("Preto");
+        p1.pinta("Cinza");
         p1.pinta("Amarelo");
         
-        System.out.println("Cor da Porta: "+p1.cor);
+        System.out.println("Cor da Porta: "+p1.getCor());
         p1.abre();
         p1.fecha();
         
-        if(p1.aberta)
+        if(p1.getAberta())
         {
             System.out.println("Esta Aberta.");
         }
@@ -25,4 +25,3 @@ public class TestaPorta {
             System.out.println("Esta Fechada.");
         }
     }
-

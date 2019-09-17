@@ -5,7 +5,7 @@ public class TestaEsfera {
     {
         Esfera r1 = new Esfera();
         
-        r1.raio = 45;
+        r1.setRaio(45);
         
         System.out.println(r1.volumeEsfera());
     }

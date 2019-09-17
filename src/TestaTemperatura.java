@@ -8,3 +8,4 @@ public class TestaTemperatura
         System.out.println(t1.converterParaFarenheit(30));
     }
 }
+
